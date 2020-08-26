@@ -6,7 +6,7 @@ import {ApolloProvider} from '@apollo/react-hooks';
 import theme from './lib/theme';
 import apolloClient from './lib/apolloClient';
 import {NavigationContainer} from '@react-navigation/native';
-import StackNavigator from './navigators/StackNavigator';
+import TabNavigator from './navigators/TabNavigator';
 
 const App = () => {
   const preLoad = async () => {
@@ -21,7 +21,7 @@ const App = () => {
     <ThemeProvider theme={theme}>
       <ApolloProvider client={apolloClient}>
         <NavigationContainer>
-          <StackNavigator />
+          <TabNavigator />
         </NavigationContainer>
       </ApolloProvider>
     </ThemeProvider>
