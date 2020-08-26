@@ -43,7 +43,7 @@ const getToken = async ({access_token, refresh_token}) => {
     });
 
     const {data} = await res.json();
-    const access_token = data.token.access_token;
+    const access_token = data.refreshToken.access_token;
     await AsyncStorage.setItem('access_token', access_token);
     return access_token;
   }
