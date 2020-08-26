@@ -19,3 +19,7 @@ android/app/src/main/res/drawable/launch_screen.png
 ```
 ios/bouncecode/Images.xcassets/launch_screen.imageset/launch_screen.png
 ```
+
+## 스크린샷
+
+![Home](media/screencapture-home.png)
