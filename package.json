@@ -1,0 +1,29 @@
+{
+  "name": "bouncecode-react-native",
+  "version": "0.0.1",
+  "description": "BounceCode ReactNative",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "files": [
+    "template",
+    "template.config.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bouncecode/bouncecode-react-native.git"
+  },
+  "keywords": [
+    "react-native",
+    "typescript",
+    "jest",
+    "template",
+    "boilerplate"
+  ],
+  "author": "Gyeongsik Park <tpnet3@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bouncecode/bouncecode-react-native/issues"
+  },
+  "homepage": "https://github.com/bouncecode/bouncecode-react-native#readme"
+}

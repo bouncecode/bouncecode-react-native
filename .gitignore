@@ -1,0 +1,11 @@
+node_modules/
+.vscode/
+.DS_Store
+template/package-lock.json
+template/yarn.lock
+template/ios/Pods/
+template/ios/HelloWorld.xcworkspace/
+template/ios/Podfile.lock
+template/android/.gradle/
+template/android/build/
+template/android/app/build/
